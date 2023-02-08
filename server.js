@@ -1,11 +1,10 @@
+
 /*-- views/server.js
    Pratheepan Gunaratnam
    Student id :- 301320478
    06-02-23
-
-*/
-
 #!/usr/bin/env node
+*/
 
 /**
  * Module dependencies.
