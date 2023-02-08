@@ -1,14 +1,13 @@
+<!-- views/about.ejs
+   Pratheepan Gunaratnam
+   Student id :- 301320478
+   06-02-23
+
+-->
+
+
 <%-include partials/header.ejs%>
-
-
-
 <main class="container mt-3">
-<!--div class="jumbotron">
-  <h1 class="display-4">Welcome to the <%=title%> Page </h1>
-</div!-->
-
-
-
 <div class="jumbotron text-center" style="margin-bottom:0">
   <h1>Welcome to the <%=title%> Page </h1> 
 </div>
@@ -47,7 +46,7 @@
 
       <ul class="side-menu side-menu-notifications">
         <li>
-          <a href="/Assets/Documents/Pratheepan CV_web.pdf"> <i class="fa-solid fa-download fa-flip"></i> Resume </a>
+          <a href="/Assets/Documents/Pratheepan CV_web.pdf" target="_blank"> <i class="fa-solid fa-download fa-flip"></i> Resume </a>
         </li>
     </ul>
 
@@ -116,6 +115,13 @@
     </div>  
   </div>
 </div>
+<script>
+  for (var i = 0; i < document.links.length; i++) {
+      if (document.links[i].href == document.URL) {
+          document.links[i].className = 'active';
+      }
+  }
+  </script>
 
 
 
